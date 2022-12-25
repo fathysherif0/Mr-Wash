@@ -2204,11 +2204,14 @@ a:focus {
     background-color: #202C45;
     color: #eeeeee;
     text-align: center;
-    height: 200px;
+    height: 100px;
 }
 @media(max-width: 991.98px) {
     #message-container {
         height: 300px;
         padding: 20px;
     }
+	.footer{
+	    margin-top: 138px;
+	}
 }
