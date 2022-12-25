@@ -2200,3 +2200,15 @@ a:focus {
     background: #202C45;
     box-shadow: inset 200px 0 0 0 #202C45;
 }
+#message-container{
+    background-color: #202C45;
+    color: #eeeeee;
+    text-align: center;
+    height: 100px;
+}
+@media(max-width: 991.98px) {
+    #message-container {
+        height: 200px;
+        padding: 20px;
+    }
+}
