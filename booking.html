@@ -135,7 +135,7 @@
         <!-- Page Header End -->
         
         
-        <div id="booking" class="section" style="background-image: url(img/background.jpg);">
+        <div id="booking-form" class="section" style="background-image: url(img/background.jpg);">
             <div class="section-center">
                 <div class="container">
                     <div class="row">
@@ -232,9 +232,13 @@
                                     </div>
                                 </div>
                                 <div class="form-btn">
-                                    <button class="submit-btn">Book Now</button>
+                                    <button id="submit-button" class="submit-btn">Book Now</button>
                                 </div>
+
                             </form>
+                            <div id="message-container">
+                                <div id="message"></div>
+                              </div>
                         </div>
                     </div>
                 </div>
@@ -288,7 +292,7 @@
                         <form>
                             <input class="form-control" placeholder="Full Name">
                             <input class="form-control" placeholder="Email">
-                            <button class="btn btn-custom">Submit</button>
+                            <button id="submit-button" class="btn btn-custom">Submit</button>
                         </form>
                     </div>
                 </div>
@@ -322,5 +326,6 @@
 
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
