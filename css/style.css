@@ -520,7 +520,7 @@ a:focus {
     text-align: center;
     background: #202C45;
     border-top: 1px dotted #ffffff;
-	margin-bottom: 28px;
+	
 }
 
 .page-header h2 {
@@ -571,6 +571,7 @@ a:focus {
 @media (max-width: 991.98px) {
     .page-header {
         padding: 60px 0;
+	    margin-bottom: 28px;
     }
     
     .page-header h2 {
