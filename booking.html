@@ -327,5 +327,17 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
         <script src="script.js"></script>
+	            <script>
+document.getElementById('submit-button').addEventListener('click', function(event) {
+  event.preventDefault();
+  // Other code goes here
+});
+document.querySelector('booking-form').addEventListener('submit-button', function(event) {
+  // Your code to handle the form submission goes here
+
+  // Prevent the page from reloading
+  return false;
+});
+        </script>
     </body>
 </html>
