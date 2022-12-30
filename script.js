@@ -6,10 +6,9 @@ submitButton.addEventListener('click', function() {
   const reservationNumber = Math.floor(Math.random() * 1000000);
 
   // Display message and reservation number
-  messageDiv.textContent = `Reservation successful!
+ messageDiv.innerHTML = `Reservation successful!
   Thank you for using MRWASH
-  Market One of our employees will contact you and confirm the reservation and payment, and this  ${reservationNumber} password for you to enter MR WASH will be effective when confirming the payment amount .`;
-
+  Market One of our employees will contact you and confirm the reservation and payment,   <span style="color: #ff0000;">${reservationNumber}</span>  is a password  to enter MR WASH will be effective when confirming the payment amount .`;
   // Get form data
   const formData = new FormData(document.getElementById('booking-form'));
 
